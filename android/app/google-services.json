@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "255972473806",
+    "project_id": "lostandfoundproject-7cd26",
+    "storage_bucket": "lostandfoundproject-7cd26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255972473806:android:a261367bbfcc0008f0499f",
+        "android_client_info": {
+          "package_name": "com.example.lostandfoundproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvCRzHqGzXhfG3x4jw0sPGhQBscE7syk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255972473806:android:63b4cbae27044960f0499f",
+        "android_client_info": {
+          "package_name": "com.example.lostandfoundprojecti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvCRzHqGzXhfG3x4jw0sPGhQBscE7syk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

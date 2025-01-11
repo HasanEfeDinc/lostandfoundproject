@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'  // Firebase için gerekli
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace = "com.example.lostandfoundproject"
+    compileSdkVersion flutter.compileSdkVersion  // Flutter tarafından yönetilen SDK sürümü
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    defaultConfig {
+        applicationId "com.example.lostandfoundproject"
+        minSdkVersion 23  // Minimum SDK sürümü
+        targetSdkVersion flutter.targetSdkVersion  // Hedef SDK sürümü, Flutter tarafından yönetiliyor
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+// Apply the Google Services plugin at the bottom of the file
+apply plugin: 'com.google.gms.google-services'
